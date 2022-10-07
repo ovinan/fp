@@ -8,7 +8,7 @@ package lanzaClaseJava_redirect;
 /**
  * Esta clase sumará todos lso números entre dos números
  *
- * @author Francis
+ * @author ovinan
  */
 public class Sumador {
     /**

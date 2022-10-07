@@ -4,7 +4,7 @@ import java.io.*;
 /**
  * Esta clase sumará todos lso números entre dos números
  *
- * @author Francis
+ * @author ovinan
  */
 public class Sumador {
 

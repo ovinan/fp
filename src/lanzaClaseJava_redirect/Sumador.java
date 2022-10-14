@@ -28,7 +28,7 @@ public class Sumador {
         int numero1 = Integer.valueOf(args[0]);
         int numero2 = Integer.valueOf(args[1]);
         
-        System.out.println("Sumo desde " + numero1 + " hasta " + numero2 + ":");
+        System.out.println("Soy el hijo: sumo desde " + numero1 + " hasta " + numero2 + ":");
         System.out.println(sumar(numero1, numero2));
     }
 }

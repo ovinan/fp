@@ -28,7 +28,7 @@ public class LanzaClaseJava {
             int estado_ejecucion = ejecutarClaseProceso(Sumador.class, numero1, numero2);
             if (estado_ejecucion == 0) 
             {
-                System.out.println("Proceso ejecutado correctamente.");
+                System.out.println("Soy el padre: Proceso ejecutado correctamente.");
             } 
             else 
             {

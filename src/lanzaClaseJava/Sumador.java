@@ -44,6 +44,6 @@ public class Sumador {
         {
             System.out.println(e);
         }        
-        System.out.println("El resultado de la suma de los numeros de " +numero1+" a "+numero2+" es "+suma);                
+        System.out.println("Soy el hijo: El resultado de la suma de los numeros de " +numero1+" a "+numero2+" es "+suma);                
     }
 }

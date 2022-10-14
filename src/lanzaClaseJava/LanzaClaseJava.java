@@ -69,7 +69,8 @@ public class LanzaClaseJava {
         String className = clase.getCanonicalName();
         // Creo el proceso a ejecutar
         // Los dos últimos parámetros son los parámetros del método main de la clase 
-        // Ejemplo del comando que se ejecuta: "C:\Program Files\Java\jdk-19\bin\java" -cp C:\Users\oscar.viñan\Documents\NetBeansProjects\LanzaClaseJava\build\classes ejemplovideo1.Sumador 10 20
+        // Ejemplo del comando que se ejecuta: 
+        //"C:\Program Files\Java\jdk-19\bin\java" -cp C:\Users\oscar.viñan\Documents\NetBeansProjects\LanzaClaseJava\build\classes ejemplovideo1.Sumador 10 20
         // NOTA: Si el comando que se ejecuta tiene instrucciones que impriman en pantalla, no se veran en el OUTPUT de este proceso
         ProcessBuilder builder = new ProcessBuilder(javaBin, "-cp",
                 classpath, className, String.valueOf(n1), String.valueOf(n2));

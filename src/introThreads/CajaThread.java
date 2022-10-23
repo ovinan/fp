@@ -50,7 +50,7 @@ public class CajaThread extends Thread {
     @Override
     public void run() {
 
-        System.out.println("La cajera " + this.nombre + " COMIENZA A PROCESAR LA COMPRA DEL CLIENTE " 
+        System.out.println("La caja " + this.nombre + " COMIENZA A PROCESAR LA COMPRA DEL CLIENTE " 
             + this.cliente.getNombre() + " EN EL TIEMPO: " 
             + (System.currentTimeMillis() - this.initialTime) / 1000 
             + "seg");
@@ -64,7 +64,7 @@ public class CajaThread extends Thread {
                 + "seg");
         }
 
-        System.out.println("La cajera " + this.nombre + " HA TERMINADO DE PROCESAR " 
+        System.out.println("La caja " + this.nombre + " HA TERMINADO DE PROCESAR " 
             + this.cliente.getNombre() + " EN EL TIEMPO: " 
             + (System.currentTimeMillis() - this.initialTime) / 1000 
             + "seg");

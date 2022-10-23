@@ -1,7 +1,10 @@
 package introThreads;
 
 /**
- *
+ * atencionColaSinThreads simula la atencion por una clase Caja, a otra clase Cliente, sin usar threads:
+ * - La clase Cliente lleva una serie de productos, cada uno de los cuales su atencion demora un numero de segundos.
+ * - La clase Caja atiende cada producto el numero de segundos especificado, y lo muestra en pantalla.
+ * 
  * @author oscar
  */
 public class atencionColaSinThreads {

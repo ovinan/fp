@@ -5,6 +5,10 @@ package introThreads;
  * @author oscar
  */
 public class Cliente {
+    /**
+     * @param String es el nombre del cliente
+     * @param int[] es un array de enteros, representando el tiempo necesario para su atencion
+     */     
     private String nombre;
     private int[] carroCompra;
     // Constructor, getters y setters

@@ -1,7 +1,10 @@
 package introThreads;
 
 /**
- *
+ * Incluye el metodo procesarCompra, que recibe al Cliente (con sus productos) y en que momento del tiempo inicia su atencion.
+ * El metododo mostrara en pantalla cuando empieza a procesar el cliente, y cada uno de sus productos.
+ * Internamente tambien tiene un metodo para esperar (con sleep) los segundos necesarios.
+ * 
  * @author oscar
  */
 public class Caja {
@@ -31,7 +34,7 @@ public class Caja {
 
         for (int i = 0; i < cliente.getCarroCompra().length; i++) {
             this.esperarXsegundos(cliente.getCarroCompra()[i]);
-            System.out.println("Procesado el producto " + (i + 1) + 
+            System.out.println(this.nombre + " ha procesado el producto " + (i + 1) + 
                 " ->Tiempo: " + (System.currentTimeMillis() - timeStamp) / 1000 + 
                 "seg");
         }

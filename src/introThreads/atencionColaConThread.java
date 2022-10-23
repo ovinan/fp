@@ -3,9 +3,9 @@ package introThreads;
 /**
  * atencionColaConThreads simula la atencion por una clase Caja, a otra clase Cliente, usando threads:
  * - La clase Cliente lleva una serie de productos, cada uno de los cuales su atencion demora un numero de segundos.
- * - La clase CajaThread atiende cada producto el numero de segundos especificado, y lo muestra en pantalla.
+ * - Ahora se llamara a la clase CajaThread, que atiende cada producto el numero de segundos especificado, y lo muestra en pantalla.
  * En este caso, al usar threads, la atencion se hace en paralelo.
- * NOTA: La clase Cliente es la misma, la unica que ha cambiado es la Caja
+ * NOTA: La clase Cliente es la misma, la unica que ha cambiado es la Caja (y que dentro de la caja se llama a su run).
  * 
  * @author oscar
  */

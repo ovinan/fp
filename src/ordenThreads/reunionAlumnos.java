@@ -1,12 +1,14 @@
 package ordenThreads;
 
+import java.util.Random;
+
 /**
  * Ejemplo sencillo para ilustrar diferentes resultados de ejecucion.
  * @author oscar
  */
 public class reunionAlumnos {
-    public static void main(String args[]) throws InterruptedException{
-
+    public static void main(String args[]) throws InterruptedException{      
+        
         Thread juan = new Thread (new Alumno("Juan"));
         Thread luis = new Thread (new Alumno("Luis"));
         Thread rosa = new Thread (new Alumno("Rosa"));
@@ -31,6 +33,7 @@ class Alumno implements Runnable{
         for (int i=1; i<6;i++){
             String msj = mensaje + i;
             System.out.println(msj);
-        }    
+        }
+
     }
 }

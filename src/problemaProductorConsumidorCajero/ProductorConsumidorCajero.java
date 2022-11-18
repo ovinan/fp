@@ -10,15 +10,15 @@ import java.util.logging.Logger;
  */
 public class ProductorConsumidorCajero {
     public static void main(String args[]) {
-       System.out.println("Ejecucion NO sincronizada");        
-       SaldoNoSincro saldoNoSincro = new SaldoNoSincro();
-       AhorradorNoSincro ahorradorNoSincro = new AhorradorNoSincro(saldoNoSincro);
-       DespilfarradorNoSincro despilfarradorNoSincro = new DespilfarradorNoSincro(saldoNoSincro);       
+//       System.out.println("Ejecucion NO sincronizada");        
+//       SaldoNoSincro saldoNoSincro = new SaldoNoSincro();
+//       AhorradorNoSincro ahorradorNoSincro = new AhorradorNoSincro(saldoNoSincro);
+//       DespilfarradorNoSincro despilfarradorNoSincro = new DespilfarradorNoSincro(saldoNoSincro);       
       
-//       System.out.println("Ejecucion sincronizada");
-//       SaldoSincro saldoSincro = new SaldoSincro();
-//       new Ahorrador(saldoSincro);
-//       new Despilfarrador(saldoSincro);
+       System.out.println("Ejecucion sincronizada");
+       SaldoSincro saldoSincro = new SaldoSincro();
+       new Ahorrador(saldoSincro);
+       new Despilfarrador(saldoSincro);
 
     }    
 

@@ -14,7 +14,7 @@ public class Productor extends Thread {
     }
  
     public void run() {
-        while (true) {
+        for (int i = 0; i < 10; i++) {
             // Obtenemos una letra al azar
             char c = letras.charAt((int) (Math.random() * letras.length()));
             // Producimos un valor

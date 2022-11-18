@@ -14,7 +14,7 @@ public class Consumidor extends Thread {
  
     public void run() {
  
-        while (true) {
+        for (int i = 0; i < 10; i++) {
             // Consume el valor si es posible
             char valor = buffer.consumir();
             System.out.println("Recogido el caracter " + valor + " del buffer");
